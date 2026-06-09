@@ -1,0 +1,22 @@
+portfolio:
+  tickers: [AAPL, MSFT, SPY, TLT, GLD]
+  weights: [0.25, 0.25, 0.20, 0.15, 0.15]
+
+data:
+  source: csv
+  input: data/sample_prices.csv
+  start: 2019-01-01
+  end: null
+
+risk:
+  confidence_levels: [0.95, 0.99]
+  confidence: 0.95
+  horizon_days: 1
+  n_sims: 5000
+
+backtest:
+  window: 250
+  method: historical
+
+output:
+  dir: outputs/demo

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+dist/
+.pytest_cache/
+.venv/
+*.csv
+!data/sample_prices.csv
+*.parquet
+data/cache/
+.coverage
+htmlcov/
+reports/figures/
+outputs/
+src/reports/
+.ruff_cache/
